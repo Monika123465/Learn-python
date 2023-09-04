@@ -26,3 +26,6 @@ text="The best things in life are free !"
 
 if "expensive" not in text:
     print("No","expansive is not present.")
+
+    print((6+3)*(6+2))
+    print(200-3**3)
