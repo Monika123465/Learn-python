@@ -13,8 +13,12 @@
 #     print(val)
 
 
-superhero=input("who is your superhero?:")
-print(superhero)
+# superhero=input("who is your superhero?:")
+# print(superhero)
+
+old_age=input("enter your old age:")
+new_age=int(old_age)+2        #add type function or define int/float/complex 
+print(new_age)
 
 
           
