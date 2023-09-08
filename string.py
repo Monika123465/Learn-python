@@ -9,4 +9,5 @@ print(name.find('M'))
 print(name.replace("SATYAM KUMAR",'monika kumari'))
 
 print('k' in name)
+print("M" in name)
 
