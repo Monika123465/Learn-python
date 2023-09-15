@@ -27,9 +27,9 @@
 # elif a==b:
 #     print("a and b are equal")
 
-a=400
-b=240
-c=500
+# a=400
+# b=240
+# c=500
 # if b>a:
 #     print("b is greater tha a")
 # elif a==b:
@@ -118,7 +118,72 @@ c=500
 
 #function 
 
-def  my_function():
-    print("hello from a function")
+# def  my_function():
+#     print("hello from a function")
  
-my_function()
+# my_function()
+
+# def my_function(fname):
+#     print(fname+" "+"singh")
+
+
+# my_function("Monika")
+# my_function("Satyam")
+# my_function("priti")
+
+#  *  before the parameter name in the function definition.
+
+# def my_function(*child):
+#     print("The youngest child is "+child[3])
+
+# my_function("manu","vedu","navi","sudhanshu","shantanu")
+
+
+#keyword arguments
+
+# def my_function(child3,child2,child1):
+#     print("the youngest child is "+child1)
+
+
+# my_function(child1="Manu",child2="vedu",child3="navi")
+
+#**  arbitrary keyword arguments
+
+# def my_function(**child):
+#     print("his  name  is"+" " +child["fname"]+" "+child["lname"])
+
+# my_function(fname="monika" ,lname="singh")
+
+#default parameter value
+
+# def my_function(country="norway"):
+#     print("I am from "+country)
+
+
+# my_function("India")
+# my_function("bangaladesh")
+# my_function("Brazil")
+# my_function()
+
+# a list of arguments
+# def my_function(food):
+#     for x in food:
+#         print(x)
+
+# fruits=["apple","banana","cherry"]
+# my_function(fruits)
+
+def tri_recursion(k):
+    if(k>0):
+        result=k+tri_recursion(k-1)
+        print(result)
+    else:
+        result=0
+        return result
+    
+
+tri_recursion(6)
+
+
+
+
