@@ -173,17 +173,33 @@
 # fruits=["apple","banana","cherry"]
 # my_function(fruits)
 
-def tri_recursion(k):
-    if(k>0):
-        result=k+tri_recursion(k-1)
-        print(result)
-    else:
-        result=0
-        return result
+# def tri_recursion(k):
+#     if(k>0):
+#         result=k+tri_recursion(k-1)
+#         print(result)
+#     else:
+#         result=0
+#         return result
     
+# print("\n\nRecursion Example Results")
+# tri_recursion(6)
 
-tri_recursion(6)
+#lambda 
+
+# x=lambda a:a+10
+# print(x(5))
+
+# y=lambda a,b:a*b
+# print(y(7,8))
+
+# z=lambda a,b,c :a+b+c
+# print(z(5,6,7))
 
 
+# def myfunc(n):
+#     return lambda a:a**n
+
+# mydoubler=myfunc(3)
+# print(mydoubler(4))
 
 
