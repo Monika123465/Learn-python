@@ -201,5 +201,22 @@
 
 # mydoubler=myfunc(3)
 # print(mydoubler(4))
+ 
+# Arrays
+
+# cars=["ford","volvo","BMw"]
+# cars.append("Honda")
+# # cars.pop(0)
+# for x in cars:
+#     print(x)
+
+#classes and objects
+class myclass:
+    x=5
+
+p1=myclass()
+print(p1.x)
+
+
 
 
