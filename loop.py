@@ -211,11 +211,20 @@
 #     print(x)
 
 #classes and objects
-class myclass:
-    x=5
+# class myclass:
+#     x=5
 
-p1=myclass()
-print(p1.x)
+# p1=myclass()
+# print(p1.x)
+
+def myfunc():
+    x=300
+    def myinnerFunc():
+        print(x)
+        myinnerFunc()
+
+
+myfunc()
 
 
 
