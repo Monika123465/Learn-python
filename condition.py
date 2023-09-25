@@ -11,5 +11,5 @@ students=["monika","satyam","kishan","radha","radhika",'tanya']
 
 for student in students:
     if student=="kishan":
-         break;
+         break
 print(student)
