@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,18 +7,55 @@
     <title>Document</title>
 </head>
 <body>
-    <form>
-        <input id="input" type="text"  placeholder="enter your email" />
-        <input id="password" type="password" placeholder="enter your password"/>
-        <button id="demo">Submit</button>
+    <form id="form" action="">
+        <input id="name" type="text" placeholder="Product name">
+        <input id="category" type="text" placeholder="category ">
+        <input id="img" type="text" placeholder="img_url">
+        <input id="price" type="number" placeholder="price">
+        <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <input type="submit" value="submit">
     </form>
 </body>
-
 </html>
 
 <script>
-let input=document.querySelector("#input").value;
-let password=document.querySelector("#password").value
-console.log(input)
-console.log(password)
+    let dataarr=JSON.parse(localStorage.getItem("products"))||[]
+   
+    let form=document.querySelector("#form")
+    form.addEventListener('submit',submit)
+    function submit(event){
+        event.preventDefault()
+        let form=document.getElementById('form')
+        let name=form.name.value
+        let category=form.category.value
+        let img=form.img.value
+        let price=form.price.value
+        let gender=form.gender.value
+
+        let data=new ecommerceproducts(name,category,img,price,gender)
+
+        let arr=JSON.parse(localStorage.getItem("products"))||[]
+        arr.push(data)
+
+        localStorage.setItem("products",JSON.stringify(arr))
+    }
+
+    function ecommerceproducts(n,c,i,p,g){
+        this.name=n
+        this.category=c
+        this.img=i
+        this.price=p
+        this.gender=g
+    }
+
+    displaytable(dataarr)
+
+    function displaytable(dataarr){
+        dataarr.forEach(function(el,index){
+            
+        })
+    }
 </script>
