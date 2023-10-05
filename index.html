@@ -55,9 +55,10 @@
     displaytable(dataarr)
 
     function displaytable(dataarr){
+        document.querySelector("#data-input").innerHTML=""
         dataarr.forEach(function(el,index){
             let data_input=document.getElementById('data-input')
-            data_input.innerHTML=""
+          
             let div=document.createElement('div')
             let name=document.createElement('h1')
             name.innerText=el.name

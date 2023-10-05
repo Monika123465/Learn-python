@@ -24,20 +24,48 @@
 
 # fibonacci series
 
-num=10
-n1,n2=0,1
-print("fibonacci Series:",n1,n2, end="")
+# num=10
+# n1,n2=0,1
+# print("fibonacci Series:",n1,n2, end="")
 
-for i in range(2,num):
-    n3=n1+n2
-    n1=n2
-    n2=n3
-    print( n3,end="")
-
-
-
-print()
+# for i in range(2,num):
+#     n3=n1+n2
+#     n1=n2
+#     n2=n3
+#     print( n3,end="")
 
 
+
+# print()
+
+# find factorial of a given number
+
+# num=int(input("enter a number:"))
+# factorial=1
+
+# if num<0:
+#     print("factorial doesn't exist")
+# elif num==0:
+#     print("factorial is 1")
+# else:
+#     for i in range(1,num+1):
+#         factorial=factorial*i
+
+
+#     print("factorial of given no is:",factorial)
+
+#armsstrong
+num=int(input("enter a number:"))
+sum=0
+temp=num
+while temp>0:
+    digit=temp%10
+    sum+=temp**3
+    temp //=10
+
+if num==sum:
+    print(num,"is an armsstrong number")
+else:
+    print(num,"is not a armsstrong number")
 
 
