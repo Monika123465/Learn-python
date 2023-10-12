@@ -7,9 +7,9 @@
 # else:
 #     print("you are a child") 
 
-students=["monika","satyam","kishan","radha","radhika",'tanya']
+# students=["monika","satyam","kishan","radha","radhika",'tanya']
 
-for student in students:
-    if student=="kishan":
-         break
-print(student)
+# for student in students:
+#     if student=="kishan":
+#          break
+# print(student)

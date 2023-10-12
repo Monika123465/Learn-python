@@ -69,3 +69,22 @@
 #     print(num,"is not a armsstrong number")
 
 
+list=["a","b","c"]
+print(list)
+
+list1=["a","b","c","d"]
+list1 [2]="z"
+print(list1)
+
+list2=["a","b","c","d","e","f"]
+list2[1:4]=["x","y","z","t"]
+print(list2)
+
+
+list3=["a","b","c","d","e","f"]
+list[1:4]=['x']
+print(list)
+
+list=["a","b","c","d"]
+list.append("e")
+print(list)
