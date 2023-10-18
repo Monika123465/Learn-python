@@ -23,7 +23,8 @@ print("4.Divide")
 
 while True:
     # take input from the user
-    choice=input("Enter choice(1/2/3/4):")
+    choice=input("Enter choice(1/2/3/4/-1):")
+    # -1 pe tum exit karo program 
 
     #check if choice is one of the four options
     if choice in ('1','2','3','4'):
