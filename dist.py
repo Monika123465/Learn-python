@@ -18,3 +18,8 @@ x=thisdict.values()
 print(x)
 thisdict["year"]=2000
 print(thisdict)
+
+y=thisdict.items()
+print(y)
+
+
