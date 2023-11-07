@@ -23,3 +23,15 @@ y=thisdict.items()
 print(y)
 
 
+for x in thisdict:
+    print(x)
+
+
+# thisdict["brand"]="maruti"
+# print(thisdict)
+# thisdict.pop("model1")
+# print(thisdict)
+# del thisdict["brand"]
+# print(thisdict)
+# thisdict.clear()
+# print(thisdict)
