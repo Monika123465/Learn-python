@@ -26,6 +26,35 @@ print(y)
 for x in thisdict:
     print(x)
 
+# lambda arguments:expression
+x=lambda a,b:a*b
+print(x(5,10))
+
+y=lambda a,b,c:a*b*c
+print(y(5,6,2))
+
+
+def myfunc(n):
+    return lambda a:a*n
+
+mydoubler=myfunc(3)
+print(mydoubler(11))
+
+
+def tripler(n):
+    return lambda a:a*n
+
+mytripler=tripler(3)
+print(mytripler(11))
+
+class MyClass:
+    x=5
+
+p1=MyClass()
+print(p1.x)
+   
+
+
 
 # thisdict["brand"]="maruti"
 # print(thisdict)
