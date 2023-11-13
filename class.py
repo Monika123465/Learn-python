@@ -1,13 +1,13 @@
-#Swapping program
+# Swapping program
 
-# x=10
-# y=50
+x=10
+y=50
 
-# temp=x
-# x=y
-# y=temp
-# print("value of x:",x)
-# print("value of y:",y)
+temp=x
+x=y
+y=temp
+print("value of x:",x)
+print("value of y:",y)
 
 
 # program to check if a no is prime or not 
