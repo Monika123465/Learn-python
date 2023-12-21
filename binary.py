@@ -48,4 +48,12 @@ result = binary_search(sorted_array, target_value)
 if result != -1:
      print(f'Target value {target_value} found at index {result}.')
 else:
-     print(f'Target value {target_value} not found in the array.')
+     print(f'Target value {target_value} not found in the array.' )
+
+
+mytuple=("apple","banana","cherry")
+myit=iter(mytuple)
+
+print(next(myit))
+print(next(myit))
+print(next(myit))
